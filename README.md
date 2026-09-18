@@ -38,7 +38,7 @@ All scripts live in [`scripts/`](scripts) and are numbered in the order they're 
 
 | # | Script | What it covers | Result |
 |---|---|---|---|
-| 00 | [`00_init_database.sql`](scripts/00_init_database.sql) | Creates the `DataWarehouseAnalytics` database, `gold` schema, and the three tables, then bulk-loads them from the CSV files | [DBcreation](results/0A.png) · [tables](results/0B.png) |
+| 00 | [`00_init_database.sql`](scripts/00_init_database.sql) | Creates the `DataWarehouseAnalytics` database, `gold` schema, and the three tables, then bulk-loads them from the CSV files | [DBcreation](results/00A.png) · [tables](results/00B.png) |
 | 01 | [`01_database_exploration.sql`](scripts/01_database_exploration.sql) | Lists tables and inspects column metadata via `INFORMATION_SCHEMA` | [view](results/01.png) |
 | 02 | [`02_dimensions_exploration.sql`](scripts/02_dimensions_exploration.sql) | Explores distinct values in the dimension tables (countries, product hierarchy) | [view](results/02.png) |
 | 03 | [`03_date_range_exploration.sql`](scripts/03_date_range_exploration.sql) | Finds the span of order dates and customer ages | [view](results/03.png) |
