@@ -1,9 +1,8 @@
 # SQL Data Analytics Project
 
 A collection of SQL scripts that explore, analyze, and report on a small retail data warehouse. The project starts from raw CSV files,
-loads them into a `gold` schema following a simple star schema, and walks through progressively more advanced analytics — from basic exploration to cumulative trends, segmentation, and reusable reporting views.
+loads them into a gold schema following a simple star schema, and walks through progressively more advanced analytics — from basic exploration to cumulative trends, segmentation, and reusable reporting views.
 
-![Analytics overview](docs/Overview.jpg)
 ---
 
 ## Data Model
