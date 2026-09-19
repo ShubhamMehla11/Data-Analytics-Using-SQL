@@ -1,4 +1,4 @@
-# SQL Data Analytics Project
+# Data-Analytics-Using-SQL
 
 A collection of SQL scripts that explore, analyze, and report on a small retail data warehouse. The project starts from raw CSV files,
 loads them into a gold schema following a simple star schema, and walks through progressively more advanced analytics — from basic exploration to cumulative trends, segmentation, and reusable reporting views.
@@ -21,7 +21,7 @@ The warehouse follows a star schema with two dimension tables and one fact table
 ## Project Structure
 
 ```
-SQL-Data-Analytics-Project/
+Data-Analytics-Using-SQL/
 ├── datasets/
 │   ├── flat-files/                 # Source CSVs (dim_customers, dim_products, fact_sales)
 │   └── DataWarehouseAnalytics.bak  # SQL Server backup of the pre-built database
